@@ -1603,7 +1603,7 @@
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
-    "version": "26.5.18.8",
+    "version": "26.6.21.1",
     "restore": {
       "projectUniqueName": "E:\\vs\\Projects\\PlatformIndependentNuGetPackages\\SunamoCodeGenerator\\SunamoCodeGenerator\\SunamoCodeGenerator.csproj",
       "projectName": "SunamoCodeGenerator",
