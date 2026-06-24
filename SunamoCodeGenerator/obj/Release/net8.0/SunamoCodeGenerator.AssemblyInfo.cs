@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCopyrightAttribute("www.sunamo.cz")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Code generation utilities extracted from SunamoDevCode.")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("26.6.21.1")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("26.6.21.1+934837a8dd45587a188d99f1592d0da14c8890bc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("26.6.21.1+5b48655d0e533b79678ec01020fa1af930c7b420")]
 [assembly: System.Reflection.AssemblyProductAttribute("SunamoCodeGenerator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SunamoCodeGenerator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("26.6.21.1")]
