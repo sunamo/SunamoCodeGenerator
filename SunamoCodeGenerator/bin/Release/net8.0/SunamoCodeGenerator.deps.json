@@ -6,9 +6,9 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v8.0": {
-      "SunamoCodeGenerator/26.6.21.1": {
+      "SunamoCodeGenerator/26.6.25.2": {
         "dependencies": {
-          "SunamoCSharp": "26.6.21.9",
+          "SunamoCSharp": "26.6.25.11",
           "SunamoDevCodeBase": "26.6.21.1"
         },
         "runtime": {
@@ -78,14 +78,14 @@
           }
         }
       },
-      "SunamoCSharp/26.6.21.9": {
+      "SunamoCSharp/26.6.25.11": {
         "dependencies": {
           "SunamoDevCodeBase": "26.6.21.1"
         },
         "runtime": {
           "SunamoCSharp.dll": {
-            "assemblyVersion": "26.6.21.9",
-            "fileVersion": "26.6.21.9"
+            "assemblyVersion": "26.6.25.11",
+            "fileVersion": "26.6.25.11"
           }
         }
       },
@@ -106,7 +106,7 @@
     }
   },
   "libraries": {
-    "SunamoCodeGenerator/26.6.21.1": {
+    "SunamoCodeGenerator/26.6.25.2": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -160,7 +160,7 @@
       "path": "system.diagnostics.diagnosticsource/10.0.2",
       "hashPath": "system.diagnostics.diagnosticsource.10.0.2.nupkg.sha512"
     },
-    "SunamoCSharp/26.6.21.9": {
+    "SunamoCSharp/26.6.25.11": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

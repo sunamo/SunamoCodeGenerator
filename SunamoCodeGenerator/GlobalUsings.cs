@@ -79,3 +79,4 @@ global using SunamoDevCode.Args;
 global using SunamoDevCode.CodeGenerator;
 global using SunamoDevCode.Helpers;
 global using SunamoDevCode.SunamoCSharp;
+global using SunamoCSharp;

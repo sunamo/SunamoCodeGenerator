@@ -1,5 +1,5 @@
 is_global = true
-build_property.RootNamespace = SunamoCodeGenerator
+build_property.RootNamespace = SunamoDevCode
 build_property.ProjectDir = E:\vs\Projects\PlatformIndependentNuGetPackages\SunamoCodeGenerator\SunamoCodeGenerator\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

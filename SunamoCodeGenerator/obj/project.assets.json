@@ -274,7 +274,7 @@
           }
         }
       },
-      "SunamoCSharp/26.6.21.9": {
+      "SunamoCSharp/26.6.25.11": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -432,7 +432,7 @@
           "buildTransitive/PolySharp.targets": {}
         }
       },
-      "SunamoCSharp/26.6.21.9": {
+      "SunamoCSharp/26.6.25.11": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
@@ -605,7 +605,7 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
-      "SunamoCSharp/26.6.21.9": {
+      "SunamoCSharp/26.6.25.11": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
@@ -778,7 +778,7 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
-      "SunamoCSharp/26.6.21.9": {
+      "SunamoCSharp/26.6.25.11": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
@@ -1559,7 +1559,7 @@
         "system.threading.tasks.extensions.nuspec"
       ]
     },
-    "SunamoCSharp/26.6.21.9": {
+    "SunamoCSharp/26.6.25.11": {
       "type": "project",
       "path": "../../SunamoCSharp/SunamoCSharp/SunamoCSharp.csproj",
       "msbuildProject": "../../SunamoCSharp/SunamoCSharp/SunamoCSharp.csproj"
@@ -1574,19 +1574,19 @@
     "net10.0": [
       "Microsoft.SourceLink.GitHub >= 10.0.102",
       "PolySharp >= 1.15.0",
-      "SunamoCSharp >= 26.6.21.9",
+      "SunamoCSharp >= 26.6.25.11",
       "SunamoDevCodeBase >= 26.6.21.1"
     ],
     "net8.0": [
       "Microsoft.SourceLink.GitHub >= 10.0.102",
       "PolySharp >= 1.15.0",
-      "SunamoCSharp >= 26.6.21.9",
+      "SunamoCSharp >= 26.6.25.11",
       "SunamoDevCodeBase >= 26.6.21.1"
     ],
     "net9.0": [
       "Microsoft.SourceLink.GitHub >= 10.0.102",
       "PolySharp >= 1.15.0",
-      "SunamoCSharp >= 26.6.21.9",
+      "SunamoCSharp >= 26.6.25.11",
       "SunamoDevCodeBase >= 26.6.21.1"
     ],
     "netstandard2.0": [
@@ -1594,7 +1594,7 @@
       "Microsoft.SourceLink.GitHub >= 10.0.102",
       "NETStandard.Library >= 2.0.3",
       "PolySharp >= 1.15.0",
-      "SunamoCSharp >= 26.6.21.9",
+      "SunamoCSharp >= 26.6.25.11",
       "SunamoDevCodeBase >= 26.6.21.1"
     ]
   },
@@ -1603,7 +1603,7 @@
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
-    "version": "26.6.21.1",
+    "version": "26.6.25.2",
     "restore": {
       "projectUniqueName": "E:\\vs\\Projects\\PlatformIndependentNuGetPackages\\SunamoCodeGenerator\\SunamoCodeGenerator\\SunamoCodeGenerator.csproj",
       "projectName": "SunamoCodeGenerator",
@@ -1628,6 +1628,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Users\\aktiv\\AppData\\Local\\Temp\\claude\\local-nuget": {},
         "https://api.nuget.org/v3/index.json": {},
         "https://pkgs.dev.azure.com/sunamocz/_packaging/nuget_feed/nuget/v3/index.json": {}
       },

@@ -7,10 +7,10 @@
   "targets": {
     ".NETStandard,Version=v2.0": {},
     ".NETStandard,Version=v2.0/": {
-      "SunamoCodeGenerator/26.6.21.1": {
+      "SunamoCodeGenerator/26.6.25.2": {
         "dependencies": {
           "Microsoft.CSharp": "4.7.0",
-          "SunamoCSharp": "26.6.21.9",
+          "SunamoCSharp": "26.6.25.11",
           "SunamoDevCodeBase": "26.6.21.1"
         },
         "runtime": {
@@ -157,15 +157,15 @@
           }
         }
       },
-      "SunamoCSharp/26.6.21.9": {
+      "SunamoCSharp/26.6.25.11": {
         "dependencies": {
           "Microsoft.CSharp": "4.7.0",
           "SunamoDevCodeBase": "26.6.21.1"
         },
         "runtime": {
           "SunamoCSharp.dll": {
-            "assemblyVersion": "26.6.21.9",
-            "fileVersion": "26.6.21.9"
+            "assemblyVersion": "26.6.25.11",
+            "fileVersion": "26.6.25.11"
           }
         }
       },
@@ -187,7 +187,7 @@
     }
   },
   "libraries": {
-    "SunamoCodeGenerator/26.6.21.1": {
+    "SunamoCodeGenerator/26.6.25.2": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -290,7 +290,7 @@
       "path": "system.threading.tasks.extensions/4.6.3",
       "hashPath": "system.threading.tasks.extensions.4.6.3.nupkg.sha512"
     },
-    "SunamoCSharp/26.6.21.9": {
+    "SunamoCSharp/26.6.25.11": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
