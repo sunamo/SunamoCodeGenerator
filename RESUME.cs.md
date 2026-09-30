@@ -10,4 +10,4 @@ generated_time: 16:28:43
 ## Description
 
 Knihovna pro generování kódu do více jazyků (C#, C++, SQL, TypeScript), vyčleněná z monolitu `SunamoDevCode`. Obsahuje generátory tříd (`CSharpClassesGenerator`), enum položek a generátory pro SQL a TypeScript.
-Balíček je self-contained: kód dříve referencovaných balíčků (DevCodeBase, CSharp) je zkopírován do `Internal\` jako internal a jiné Sunamo balíčky nereferencuje.
+Balíček je self-contained: kód dříve referencovaných balíčků (DevCodeBase, CSharp) je zkopírován do `_sunamo\` (jen použité členy, převážně internal) a jiné Sunamo balíčky nereferencuje.
