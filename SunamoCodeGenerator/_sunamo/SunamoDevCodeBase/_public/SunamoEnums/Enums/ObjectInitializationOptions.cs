@@ -1,4 +1,4 @@
-﻿namespace SunamoCodeGenerator._sunamo._public.SunamoEnums.Enums;
+namespace SunamoDevCode._sunamo.SunamoDevCodeBase._public.SunamoEnums.Enums;
 
 internal enum ObjectInitializationOptions
 {

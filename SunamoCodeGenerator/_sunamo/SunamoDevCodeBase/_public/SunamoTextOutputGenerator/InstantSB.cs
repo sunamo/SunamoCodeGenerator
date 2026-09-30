@@ -1,4 +1,4 @@
-﻿namespace SunamoCodeGenerator._sunamo._public.SunamoTextOutputGenerator;
+namespace SunamoDevCode._sunamo.SunamoDevCodeBase._public.SunamoTextOutputGenerator;
 
 public class InstantSB
 {

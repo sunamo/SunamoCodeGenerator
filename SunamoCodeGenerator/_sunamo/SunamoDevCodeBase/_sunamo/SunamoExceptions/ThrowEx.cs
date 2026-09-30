@@ -1,4 +1,4 @@
-namespace SunamoCodeGenerator._sunamo.SunamoExceptions;
+namespace SunamoDevCode._sunamo.SunamoDevCodeBase._sunamo.SunamoExceptions;
 
 internal partial class ThrowEx
 {

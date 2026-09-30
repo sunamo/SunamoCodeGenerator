@@ -1,4 +1,4 @@
-﻿namespace SunamoCodeGenerator._sunamo._public.SunamoData.Data;
+namespace SunamoDevCode._sunamo.SunamoDevCodeBase._public.SunamoData.Data;
 
 public class TWithNameTDC<T>
 {
