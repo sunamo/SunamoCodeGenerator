@@ -1,4 +1,4 @@
-namespace SunamoCodeGenerator._sunamo.SunamoConverters.Converts;
+namespace SunamoDevCode._sunamo.SunamoDevCodeBase._sunamo.SunamoConverters.Converts;
 
 internal class ConvertPascalConvention
 {

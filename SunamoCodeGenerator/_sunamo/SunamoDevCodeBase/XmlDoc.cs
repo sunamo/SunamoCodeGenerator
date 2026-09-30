@@ -1,4 +1,4 @@
-﻿namespace SunamoCodeGenerator._sunamo;
+namespace SunamoDevCode._sunamo.SunamoDevCodeBase;
 
 public class XmlDoc
 {

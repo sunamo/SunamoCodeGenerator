@@ -1,4 +1,4 @@
-namespace SunamoCodeGenerator._sunamo.SunamoStringGetLines;
+namespace SunamoDevCode._sunamo.SunamoDevCodeBase._sunamo.SunamoStringGetLines;
 
 internal class SHGetLines
 {

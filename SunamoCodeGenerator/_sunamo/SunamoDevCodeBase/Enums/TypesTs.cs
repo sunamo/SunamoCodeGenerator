@@ -1,4 +1,4 @@
-﻿namespace SunamoCodeGenerator._sunamo.Enums;
+namespace SunamoDevCode._sunamo.SunamoDevCodeBase.Enums;
 
 // Another is in TsTypes
 public enum TypesTs

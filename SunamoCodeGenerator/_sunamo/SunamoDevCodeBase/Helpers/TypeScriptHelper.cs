@@ -1,4 +1,4 @@
-﻿namespace SunamoDevCode.Helpers;
+namespace SunamoDevCode._sunamo.SunamoDevCodeBase.Helpers;
 
 internal class TypeScriptHelper
 {
