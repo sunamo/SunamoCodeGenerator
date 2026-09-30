@@ -1,15 +1,13 @@
 ---
-schema_version: 1
+schema_version: 2
 type: library
-file_count: 14
+file_count: 178
 delete_recommendation_percent: 5
-generated_date: 2026-09-29
+generated_date: 2026-09-30
+generated_time: 15:10:26
 ---
 
 ## Description
 
-Knihovna pro generování kódu do více jazyků (C#, C++, SQL, TypeScript), vyčleněná z monolitu `SunamoDevCode`.
-
-Obsahuje generátory tříd (`CSharpClassesGenerator`), enum položek a generátory pro SQL a TypeScript.
-
-Publikováno na NuGet 2026-09-29.
+Knihovna pro generování kódu do více jazyků (C#, C++, SQL, TypeScript), vyčleněná z monolitu `SunamoDevCode`. Obsahuje generátory tříd (`CSharpClassesGenerator`), enum položek a generátory pro SQL a TypeScript.
+Balíček je self-contained: kód dříve referencovaných balíčků (DevCodeBase, CSharp) je zkopírován do `Internal\` jako internal a jiné Sunamo balíčky nereferencuje.
