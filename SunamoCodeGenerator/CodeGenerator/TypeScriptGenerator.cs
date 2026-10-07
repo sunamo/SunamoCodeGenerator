@@ -55,9 +55,9 @@ public class TypeScriptGenerator
     {
         if (itemType == "string")
         {
-            for (int i = 0; i < values.Length; i++)
+            for (int index = 0; index < values.Length; index++)
             {
-                values[i] = SH.WrapWithQm(values[i]);
+                values[index] = SH.WrapWithQm(values[index]);
             }
         }
 

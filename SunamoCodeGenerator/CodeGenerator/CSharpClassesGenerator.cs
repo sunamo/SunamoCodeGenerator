@@ -8,7 +8,7 @@ public class CSharpClassesGenerator
     public static string Dictionary(string className, List<string> keys, Func<string> randomValue)
     {
         List<string> values = new();
-        for (int i = 0; i < keys.Count; i++)
+        for (int index = 0; index < keys.Count; index++)
         {
             values.Add(randomValue());
         }
@@ -26,9 +26,9 @@ public class CSharpClassesGenerator
         generator.StartClass(0, AccessModifiers.Private, false, className);
         generator.Field(1, AccessModifiers.Private, false, VariableModifiers.None, "Dictionary<string, string>", "dict", false, "new Dictionary<string, string>()");
         CSharpGenerator inner = new CSharpGenerator();
-        for (int i = 0; i < keys.Count; i++)
+        for (int index = 0; index < keys.Count; index++)
         {
-            inner.AppendLine(2, "dict.Add(\"{0}\", \"{1}\");", keys[i], values[i]);
+            inner.AppendLine(2, "dict.Add(\"{0}\", \"{1}\");", keys[index], values[index]);
         }
         generator.Ctor(1, ModifiersConstructor.Private, className, inner.ToString());
         generator.EndBrace(0);
@@ -39,9 +39,9 @@ public class CSharpClassesGenerator
     public static string DictionaryPascalConvention(string className, List<string> list, bool switchKeysAndValues)
     {
         List<string> values = new();
-        for (int i = 0; i < list.Count; i++)
+        for (int index = 0; index < list.Count; index++)
         {
-            values.Add(ConvertPascalConvention.ToConvention(list[i]));
+            values.Add(ConvertPascalConvention.ToConvention(list[index]));
         }
 
         if (switchKeysAndValues)

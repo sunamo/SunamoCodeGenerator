@@ -98,7 +98,7 @@ public abstract class GeneratorCodeAbstract
     public void AddTab(int tabCount)
     {
         //tabCount += 1;
-        for (var i = 0; i < tabCount; i++) sb.AddRaw("\t");
+        for (var index = 0; index < tabCount; index++) sb.AddRaw("\t");
     }
 
     // EN: Adds tabs to each line of the text
@@ -106,10 +106,10 @@ public abstract class GeneratorCodeAbstract
     public static string AddTab(int tabCount, string text)
     {
         var lines = SHGetLines.GetLines(text);
-        for (var i = 0; i < lines.Count; i++)
+        for (var index = 0; index < lines.Count; index++)
         {
-            lines[i] = lines[i].Trim();
-            for (var tabIndex = 0; tabIndex < tabCount; tabIndex++) lines[i] = "\t" + lines[i];
+            lines[index] = lines[index].Trim();
+            for (var tabIndex = 0; tabIndex < tabCount; tabIndex++) lines[index] = "\t" + lines[index];
         }
 
         var result = string.Join(Environment.NewLine, lines);
