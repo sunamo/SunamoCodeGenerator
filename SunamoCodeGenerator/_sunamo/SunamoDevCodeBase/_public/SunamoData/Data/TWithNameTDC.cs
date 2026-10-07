@@ -9,10 +9,10 @@ public class TWithNameTDC<T>
     {
     }
 
-    public TWithNameTDC(string name, T t)
+    public TWithNameTDC(string name, T value)
     {
         this.name = name;
-        this.t = t;
+        this.t = value;
     }
 
     public override string ToString() => name;

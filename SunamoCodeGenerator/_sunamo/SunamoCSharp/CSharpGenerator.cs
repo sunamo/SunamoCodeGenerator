@@ -10,8 +10,8 @@ internal partial class CSharpGenerator : GeneratorCodeAbstract //, ICSharpGenera
         if (derivedTypes.Length != 0)
         {
             sb.AddItem(":");
-            for (var i = 0; i < derivedTypes.Length - 1; i++)
-                sb.AddItem(derivedTypes[i] + ",");
+            for (var index = 0; index < derivedTypes.Length - 1; index++)
+                sb.AddItem(derivedTypes[index] + ",");
             sb.AddItem(derivedTypes[derivedTypes.Length - 1]);
         }
 
@@ -104,12 +104,12 @@ internal partial class CSharpGenerator : GeneratorCodeAbstract //, ICSharpGenera
         sb.AddItem(constructorName);
         StartParenthesis();
         var parameterNames = new List<string>(parameters.Length / 2);
-        for (var i = 0; i < parameters.Length; i++)
+        for (var index = 0; index < parameters.Length; index++)
         {
-            sb.AddItem(parameters[i]);
-            var parameterName = parameters[++i];
+            sb.AddItem(parameters[index]);
+            var parameterName = parameters[++index];
             parameterNames.Add(parameterName);
-            if (i != parameters.Length - 1)
+            if (index != parameters.Length - 1)
                 sb.AddItem(parameterName + ",");
             else
                 sb.AddItem(parameterName);
