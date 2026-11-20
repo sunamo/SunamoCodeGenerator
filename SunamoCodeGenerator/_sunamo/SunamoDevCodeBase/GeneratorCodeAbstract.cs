@@ -22,9 +22,7 @@ public abstract class GeneratorCodeAbstract
     // CZ: Ukončí složenou závorku a přidá nový řádek. Za voláním této metody pokud ukončuje nějaký celek jako jsou metody, vlastnosti nebo konstruktor je vhodné volat ještě sb.AppendLine().
     public void EndBrace(int tabCount)
     {
-        //sb.AppendLine();
         AddTab(tabCount);
-        //sb.AppendLine();
         sb.AppendLine("}");
     }
 
@@ -33,10 +31,8 @@ public abstract class GeneratorCodeAbstract
     public void StartBrace(int tabCount)
     {
         // Line always ending previous command
-        //sb.AppendLine();
         AddTab(tabCount);
         sb.AppendLine("{");
-        //sb.AppendLine();
     }
 
     public void StartParenthesis()
@@ -97,7 +93,6 @@ public abstract class GeneratorCodeAbstract
 
     public void AddTab(int tabCount)
     {
-        //tabCount += 1;
         for (var index = 0; index < tabCount; index++) sb.AddRaw("\t");
     }
 

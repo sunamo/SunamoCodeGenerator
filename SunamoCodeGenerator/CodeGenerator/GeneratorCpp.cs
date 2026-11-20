@@ -1,6 +1,5 @@
 namespace SunamoDevCode.CodeGenerator;
 
-// C++ code generator for maps, vectors, and arrays.
 public class GeneratorCpp : GeneratorCodeAbstract
 {
     public void MapStringString(int tabCount, string mapName, Dictionary<string, string> nameCommentEnums)

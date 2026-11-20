@@ -4,9 +4,6 @@ internal class ConvertPascalConvention
 {
     // Converts string to PascalCase convention
     // Will include numbers
-    // hello world = HelloWorld
-    // Hello world = HelloWorld
-    // helloWorld = HelloWorld
     internal static string ToConvention(string input)
     {
         var stringBuilder = new StringBuilder();
