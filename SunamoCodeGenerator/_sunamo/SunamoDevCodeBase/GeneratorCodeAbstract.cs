@@ -18,16 +18,14 @@ public abstract class GeneratorCodeAbstract
         sb.AddItem(AddTab(tabCount, text));
     }
 
-    // EN: Ends a brace and adds a new line. After calling this method for elements like methods, properties, or constructors, it's recommended to also call sb.AppendLine().
-    // CZ: Ukončí složenou závorku a přidá nový řádek. Za voláním této metody pokud ukončuje nějaký celek jako jsou metody, vlastnosti nebo konstruktor je vhodné volat ještě sb.AppendLine().
+    // Ends a brace and adds a new line. After calling this method for elements like methods, properties, or constructors, it's recommended to also call sb.AppendLine().
     public void EndBrace(int tabCount)
     {
         AddTab(tabCount);
         sb.AppendLine("}");
     }
 
-    // EN: Starts a brace. This is the only method here that adds a new line at the beginning.
-    // CZ: Přidá nový řádek, složenou závorku. Je to jediná zdejší metoda která na začátku přidává nový řádek.
+    // Starts a brace. This is the only method here that adds a new line at the beginning.
     public void StartBrace(int tabCount)
     {
         // Line always ending previous command
@@ -50,8 +48,7 @@ public abstract class GeneratorCodeAbstract
         sb.AppendLine();
     }
 
-    // EN: Appends a formatted line with tabs
-    // CZ: Přidá formátovaný řádek s tabulátory
+    // Appends a formatted line with tabs
     public void AppendLine(int tabCount, string format, params object[] args)
     {
         if (args.Length != 0)
@@ -60,8 +57,7 @@ public abstract class GeneratorCodeAbstract
             sb.AppendLine(AddTab(tabCount, format));
     }
 
-    // EN: Appends formatted text with tabs (without newline)
-    // CZ: Přidá formátovaný text s tabulátory (bez nového řádku)
+    // Appends formatted text with tabs (without newline)
     public void Append(int tabCount, string format, params object[] args)
     {
         if (args.Length != 0)
@@ -70,8 +66,7 @@ public abstract class GeneratorCodeAbstract
             sb.AddItem(AddTab(tabCount, format));
     }
 
-    // EN: Assigns a value to a property/field, converting it to string
-    // CZ: Přiřadí hodnotu vlastnosti/poli, převádí na string
+    // Assigns a value to a property/field, converting it to string
     public void AssignValue(int tabCount, string objectName, string variableName, object value, bool addToHyphens)
     {
         string valueString;
@@ -82,8 +77,7 @@ public abstract class GeneratorCodeAbstract
         AssignValue(tabCount, objectName, variableName, valueString, addToHyphens);
     }
 
-    // EN: Returns the generated code and resets the string builder
-    // CZ: Vrátí vygenerovaný kód a resetuje string builder
+    // Returns the generated code and resets the string builder
     public override string ToString()
     {
         var result = sb.ToString();
@@ -96,8 +90,7 @@ public abstract class GeneratorCodeAbstract
         for (var index = 0; index < tabCount; index++) sb.AddRaw("\t");
     }
 
-    // EN: Adds tabs to each line of the text
-    // CZ: Přidá tabulátory na začátek každého řádku textu
+    // Adds tabs to each line of the text
     public static string AddTab(int tabCount, string text)
     {
         var lines = SHGetLines.GetLines(text);
