@@ -1,10 +1,21 @@
 namespace SunamoDevCode.CodeGenerator;
 
 // Generator for C# classes. Generation of single element is in CSharpHelper.
+/// <summary>
+/// Represents the c sharp classes generator type.
+/// </summary>
 public class CSharpClassesGenerator
 {
+    /// <summary>
+    /// The type.
+    /// </summary>
     public static Type Type = typeof(CSharpClassesGenerator);
 
+    /// <summary>
+    /// Dictionary.
+    /// </summary>
+    /// <param name="CSharpClassesGenerator">The c sharp classes generator.</param>
+    /// <returns>The dictionary result.</returns>
     public static string Dictionary(string className, List<string> keys, Func<string> randomValue)
     {
         List<string> values = new();
@@ -16,6 +27,13 @@ public class CSharpClassesGenerator
         return Dictionary(className, keys, values);
     }
 
+    /// <summary>
+    /// Dictionary.
+    /// </summary>
+    /// <param name="className">The class name.</param>
+    /// <param name="keys">The keys.</param>
+    /// <param name="values">The values.</param>
+    /// <returns>The dictionary result.</returns>
     public static string Dictionary(string className, List<string> keys, List<string> values)
     {
 
@@ -36,6 +54,13 @@ public class CSharpClassesGenerator
     }
 
     // switchKeysAndValues: If true, switches keys and values in the dictionary.
+    /// <summary>
+    /// Dictionary pascal convention.
+    /// </summary>
+    /// <param name="className">The class name.</param>
+    /// <param name="list">The list.</param>
+    /// <param name="switchKeysAndValues">The switch keys and values.</param>
+    /// <returns>The dictionary pascal convention result.</returns>
     public static string DictionaryPascalConvention(string className, List<string> list, bool switchKeysAndValues)
     {
         List<string> values = new();
